@@ -1,11 +1,5 @@
 # Front-end Testing on Steroids
 
-[![Build Status](https://travis-ci.com/NoriSte/frontend-testing-on-steroids.svg?branch=master)](https://travis-ci.com/NoriSte/frontend-testing-on-steroids)
-[![Build
-Status](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/frontend-testing-on-steroids)
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-
 Why testing a front-end application is so hard? What are the main challenges you need to face? Why do the tests fail without a clear reason?
 This talk is about good testing best practices and the tool that is become the de-facto standard of UI Testing: Cypress.
 
@@ -114,7 +108,6 @@ Examples:
 - I bootstrapped this project with [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started)
 - it contains a super-simple authentication form
 - it contains a fake server with artificial delays to simulate E2E testing slowness
-- it runs the tests in Travis too to show a complete UI Testing project
 - all the code is well commented, with a lot of links to the slide explanations
 - I wrote the front-end app with a outside-in approach writing the acceptance test at the beginning.
   I have not tested it manually at all!
